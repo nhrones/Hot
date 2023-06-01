@@ -46,11 +46,11 @@ below this injected script.
 See the example app in the `./example` folder
 
 ## Usage
-To install a local copy: download a copy of the repo, then in the root, enter:
+To install a local copy, enter:
 ```
-deno install -n hot -A --unstable ./server.ts 
+deno install -n hot -A --unstable https://raw.githubusercontent.com/nhrones/Hot/master/server.ts 
 ```  
-Then, in a terminal in the root of your project, just enter `hot` to run this service. If the client code is not in the root folder, enter its name as the first cammand line arg -- `hot example` in this case.
+Then, in a terminal in the root of your project, just enter `hot` to run this service. If the client code is not in the root folder, enter the folder name as the first cammand line arg; in this case you'll enter -- `hot example`.
 
 Your browser will launch automatically, opening your web-app.
 
